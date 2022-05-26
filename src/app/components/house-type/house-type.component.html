@@ -1,0 +1,24 @@
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="../../../assets/png/carousel/INGRESO.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="../../../assets/png/carousel/CASAGR.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="../../../assets/png/carousel/VALLA.png" style="width:100%">
+    </div>
+    
+    <a class="prev" (click)="plusSlides(-1)">❮</a>
+    <a class="next" (click)="plusSlides(1)">❯</a>
+    
+    <div class="dots" style="text-align:center">
+        <span class="dot" (click)="currentSlide(1)"></span> 
+        <span class="dot" (click)="currentSlide(2)"></span> 
+        <span class="dot" (click)="currentSlide(3)"></span> 
+      </div>
+    </div>
+<app-btn></app-btn>

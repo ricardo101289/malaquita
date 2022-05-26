@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+  img {
+    width: 181px;
+    height: 60px;
+  }
+
+  .socialIcons {
+    width: 25px;
+    height: 25px;
+  }
+
+  .call-number {
+    font-size: 20px;
+  }
+
+  .color-text {
+    color: #FFFFFF;
+  }
+
+}
