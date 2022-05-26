@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+.font12{
+    font-size: 12px;
+}
+.font17{
+    font-size: 17px;
+}
+
+.font20{
+    font-size: 20px;
+}
+
+.font31{
+    font-size: 31px;
+}
+
+.font45{
+    font-size: 45px;
+}
+
+.base-color{
+    color: #72BC95;
+}
+
+.black-color{
+    color: #2A4B3A;
+}
+.text-color{
+    color: #606060;
+}
+
+.bg-black{
+  background: #000000;
+}
