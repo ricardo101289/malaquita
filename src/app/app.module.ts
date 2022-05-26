@@ -12,6 +12,10 @@ import { CardComponent } from './components/card/card.component';
 import { BtnComponent } from './components/btn/btn.component';
 import { HouseTypeComponent } from './components/house-type/house-type.component';
 import { AmbientesComponent } from './components/ambientes/ambientes.component';
+import { MapComponent } from './components/map/map.component';
+import { TypeHousesComponent } from './components/type-houses/type-houses.component';
+import { ImagesReferentComponent } from './components/images-referent/images-referent.component';
+import { QualityAndguaranteeComponent } from './components/quality-andguarantee/quality-andguarantee.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { AmbientesComponent } from './components/ambientes/ambientes.component';
     CardComponent,
     BtnComponent,
     HouseTypeComponent,
-    AmbientesComponent
+    AmbientesComponent,
+    MapComponent,
+    TypeHousesComponent,
+    ImagesReferentComponent,
+    QualityAndguaranteeComponent
   ],
   imports: [
     BrowserModule,
