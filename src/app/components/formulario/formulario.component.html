@@ -1,0 +1,33 @@
+<div class="d-flex bg-black">
+    <div class="w-50 content-form bg-green">
+        <div class="color-text-white weight-600 text-center">
+            <h1>DÉJANOS TUS</h1>
+            <h1>DATOS</h1>
+        </div>
+        <div class="color-text-white weight-500 text-center mt-4 mb-4">
+            Para mayor información sobre nuestro proyecto de <br> MALAQUITA por favor llena los siguientes datos:
+        </div>
+        <div class="formulario">
+            <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="form">
+                <label class="color-text-white weight-500" for="firstname">NOMBRE </label>
+                <input class="mb-2" type="text" id="name" name="name" formControlName="name">
+                <label class="color-text-white weight-500" for="firstname">EMAIL</label>
+                <input class="mb-2" type="email" id="email" name="email" formControlName="email">
+                <label class="color-text-white weight-500" for="firstname">TELÉFONO</label>
+                <input class="mb-2" type="text" id="telefono" name="telefono" formControlName="telefono">
+                <label class="color-text-white weight-500" for="firstname">MENSAJE </label>
+                <textarea class="mb-2" type="text" id="mensaje" name="mensaje" formControlName="mensaje"></textarea>
+                <div class="d-flex justify-content-center">
+                    <div class="btn-malaquita font17 base-color" style="margin-right: 5rem">
+                        Descargar Folleto
+                    </div>
+                </div>
+                
+            </form>
+            
+        </div>
+    </div>
+    <div class="w-50">
+        <img class="img-house" src="../../../assets/png/CASAGR.png" alt="">
+    </div>
+</div>

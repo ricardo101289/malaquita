@@ -40,10 +40,36 @@
 .color-text-white{
   color: #FFFFFF;
 }
+.weight-600{
+    font-weight: 600;
+}
+.weight-500{
+    font-weight: 500;
+}
 .line-white{
   width: 325.5px;
   height: 0px;
   border: 1px solid #FFFFFF;
+}
+.bg-green{
+    background: #2A4B3A;
+}
+
+.btn-malaquita{
+    width: 218px;
+    height: 39px;
+    left: 195px;
+    top: 905px;
+    background: #FFFFFF;
+    border: 1.11429px solid #72BC95;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5.57143px;
+    justify-content: center;
+    align-content: center;
+    padding: 0.4rem;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 /* Importing Bootstrap SCSS file. */

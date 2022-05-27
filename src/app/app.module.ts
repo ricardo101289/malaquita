@@ -16,6 +16,8 @@ import { MapComponent } from './components/map/map.component';
 import { TypeHousesComponent } from './components/type-houses/type-houses.component';
 import { ImagesReferentComponent } from './components/images-referent/images-referent.component';
 import { QualityAndguaranteeComponent } from './components/quality-andguarantee/quality-andguarantee.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,12 +33,15 @@ import { QualityAndguaranteeComponent } from './components/quality-andguarantee/
     MapComponent,
     TypeHousesComponent,
     ImagesReferentComponent,
-    QualityAndguaranteeComponent
+    QualityAndguaranteeComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
