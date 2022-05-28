@@ -18,9 +18,10 @@
                 <label class="color-text-white weight-500" for="firstname">MENSAJE </label>
                 <textarea class="mb-2" type="text" id="mensaje" name="mensaje" formControlName="mensaje"></textarea>
                 <div class="d-flex justify-content-center mt-3">
-                    <div class="btn-malaquita font17 base-color">
-                        Enviar datos
-                    </div>
+                    <button class="btn-malaquita font17 base-color" type="submit" [disabled]="!contactForm.valid">Enviar datos</button>
+                    <!-- <div class="btn-malaquita font17 base-color">
+                        
+                    </div> -->
                 </div>
                 
             </form>
