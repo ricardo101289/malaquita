@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImagesReferentComponent implements OnInit {
   images = [
-    "../../../assets/png/red/INGRESO.png",
-    "../../../assets/png/ref/CASAGR.png",
-    "../../../assets/png/ref/VALLA.png"
+    "../../../assets/png/red/02CASAS.png",
+    "../../../assets/png/ref/03COMUNAL.png",
+    "../../../assets/png/ref/04PISCINA.png",
+    "../../../assets/png/ref/05PERGOLA.png",
+    "../../../assets/png/ref/06PADEL.png"
   ]
 
   constructor() { }

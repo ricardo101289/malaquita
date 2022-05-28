@@ -25,9 +25,8 @@
 .base-color{
     color: #72BC95;
 }
-
-.black-color{
-    color: #2A4B3A;
+.grey-color{
+    color: #AF9C96;
 }
 .text-color{
     color: #606060;
@@ -36,12 +35,24 @@
 .bg-black{
   background: #000000;
 }
+.bg-green{
+  background: #2A4B3A;
+}
+.bg-grey{
+  background: #AF9C96;
+}
 
 .color-text-white{
   color: #FFFFFF;
 }
+.color-text-black{
+  color: #000000;
+}
 .color-text-green{
-  color: #7DCEA0;
+  color: #2A4B3A;
+}
+.color-text-grey{
+  color: #AF9C96;
 }
 .weight-600{
     font-weight: 600;
@@ -59,11 +70,6 @@
   height: 0px;
   border: 1px solid #2A4B3A;
 }
-
-.bg-green{
-    background: #01DFA5;
-}
-
 .btn-malaquita{
     width: 218px;
     height: 39px;
