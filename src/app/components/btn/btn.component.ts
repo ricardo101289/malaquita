@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-btn',
@@ -6,8 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./btn.component.scss']
 })
 export class BtnComponent implements OnInit {
+  @Input()
+  bgbtn: string;
+  @Input()
+  textbtn: string;
 
-  constructor() { }
+  constructor() {
+    this.bgbtn = 'white';
+    this.textbtn = '#72BC95';
+  }
 
   ngOnInit(): void {
   }
